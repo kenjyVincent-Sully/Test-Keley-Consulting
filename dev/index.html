@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name ="description" content =" ">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+	</head>
+	<body>
+		<div id="mainContainer" class="container-fluid">
+			<div class="container">
+				<div id="topContainer" class="row">
+					<div id="searchLeft" class="col">
+						<form id="filter" class="row">
+							<div id="filterLeft" class="col">
+								<h3>Filter</h3>
+								<input type="checkbox" name="tag1" id="tag1">
+								<label for="tag1">Tag 1</label>
+								<input type="checkbox" name="tag2" id="tag2">
+								<label for="tag2">Tag 2</label>
+								<input type="checkbox" name="tag3" id="tag3">
+								<label for="tag3">Tag 3</label>
+							</div>
+							<div id="filterRight" class="col">
+								<h3>Tri par :</h3>
+								<input type="checkbox" name="price" id="price">
+								<label for="price">Prix</label>
+								<input type="checkbox" name="weight" id="weight">
+								<label for="weight">Poids</label>
+							</div>
+						</form>	
+					</div>
+					<div id="searchRight" class="col">
+						<form id="searchBar" >
+							<input type="text" name="search" placeholder="rechecher">
+							<input type="submit">
+						</form>
+					</div>
+				</div>
+				<div class="container-fluid">
+				<div id="listProducts" class="container">
+					<div class="product row">
+						<div class="leftProduct col">
+							<img src="" alt="">
+						</div>
+						<div class="middleProduct col">
+							Description du produit 1<br>
+							Tag 1, Tag 2
+						</div>
+						<div class="rightProduct col">
+							<ul>
+								<li class="price">20 euros</li>
+								<li class="weight">15 kg</li>
+							</ul>
+							<a href="">En savoir plus</a>
+						</div>
+					</div>
+					
+					<div class="product row">
+						<div class="leftProduct col">
+							<img src="" alt="">
+						</div>
+						<div class="middleProduct col">
+							Description du produit 1<br>
+							Tag 1, Tag 2
+						</div>
+						<div class="rightProduct col">
+							<ul>
+								<li class="price">20 euros</li>
+								<li class="weight">15 kg</li>
+							</ul>
+							<a href="">En savoir plus</a>
+						</div>
+					</div>
+					<div class="product row">
+						<div class="leftProduct col">
+							<img src="" alt="">
+						</div>
+						<div class="middleProduct col">
+							Description du produit 1<br>
+							Tag 1, Tag 2
+						</div>
+						<div class="rightProduct col">
+							<ul>
+								<li class="price">20 euros</li>
+								<li class="weight">15 kg</li>
+							</ul>
+							<a href="">En savoir plus</a>
+						</div>
+					</div>
+				</div>
+				</div>
+
+				<div class="float-right">
+					<nav aria-label="Page navigation">
+					  <ul class="pagination">
+					    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+					    <li class="page-item"><a class="page-link" href="#">1</a></li>
+					    <li class="page-item"><a class="page-link" href="#">2</a></li>
+					    <li class="page-item"><a class="page-link" href="#">3</a></li>
+					    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+					  </ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</body>
+</html>
